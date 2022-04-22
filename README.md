@@ -1,4 +1,36 @@
-## Instructions
+# APP Specifications
+
+
+## Description
+The goal of this project is to develop a software that manages a cafe.  The design will take into consideration the food they offer along with its prices, inventory, order history, transactions, till cash balance and employee information.  It will aid in managing the inventory, staff and transactions. 
+
+
+
+## Features
+Name          |Description
+------------- | -------------
+Food and drink offerings  |Stores the food and drink items that the restaurant offers.
+Food and drink pricing |Stores the prices information about the food and drink items. Prices can also be updated based on promotions.
+Stock |Keeps track of the inventory/stock of the items that the restaurant carries. Allows the user to see which items are currently in stock and which need to be reordered
+Deals/coupons |Stores information about coupons and deals the restaurant is currently offering. Also allows deals/coupons to be applied to transactions
+Initial stock and price setup with CSV file |  Simplify the initial setup of the system by letting the user input a CSV to automatically populate the system.
+Order history of each product  |Allow the user to make orders for items out of stock and keep track of the order history for each item. Also keeps track of the items that have been received and items that are still waiting for shipment
+Transactions and transaction history | Stores the transaction history of each item. This will allow the user to see how popular an item is in the restaurant. It can also keep track of the daily transactions made to understand profitability
+Till cash balance |Keep track of the cash balance at each till in the restaurant. It will get updated based on the transactions done at that till
+Different UI for different Users (employee, manager) | Have different interfaces for employees and managers to restrict access to certain information to employees
+List of employees and managers in the system  | Store information about the current employees and managers of the restaurant
+
+
+
+User Stories |
+------------- | 
+ As an administrator, I can input the product information and inventory to a CSV file so that I can setup the initial system. Test with a non-CSV file. Can view the details of items that were initially put in the system|
+ As manager, I can add or remove a food/drink offering from the system, Add an item to the system and view the details of it, Remove an item from the system and make sure the details are not shown|
+As a manager or employee, I can view the full list of items that are in stock to know when to reorder them, Inventory is updated after each transaction in the list, The details of an item that is in the system can be viewed from the csv file inputted |
+
+
+
+# Instructions
 
 ## Compile the program using the command
 
