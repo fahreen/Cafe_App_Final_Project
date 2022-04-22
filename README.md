@@ -27,8 +27,20 @@ User Stories |
  As an administrator, I can input the product information and inventory to a CSV file so that I can setup the initial system. Test with a non-CSV file. Can view the details of items that were initially put in the system|
  As manager, I can add or remove a food/drink offering from the system, Add an item to the system and view the details of it, Remove an item from the system and make sure the details are not shown|
 As a manager or employee, I can view the full list of items that are in stock to know when to reorder them, Inventory is updated after each transaction in the list, The details of an item that is in the system can be viewed from the csv file inputted |
-
-
+As a manager or employee, I can search up a specific food or drink item to know if it is available and the price, View details about all items and it matches the CSV file, Employee/ manager looks up a food which doesn’t exist, Can get a list of food/drinks in the system |
+As a manager, I can change the inventory information for each food/drink to update the stock information, After a new order arrives the inventory is updated, After an item removed from the system, the inventory is set to 0 | 
+As a manager, I can change the price of the food or drink item, After manager changes price, system/menu is updated accordingly, Employee tries to change the price of a food item, Manager sets negative price, Tries to change the price of an item that doesn’t exist in stock |
+As a manager or employee I can view the order history to know when which orders are pending, Place an order and view that it was added to the order history, Mark an order as received and view that the order history was updated, Cancel an order and view that the order history was update |
+As a manager, I can reorder items that are out of/ low in stock, Employee tries to reorder an item, Manager tries to reorder an item that doesn’t exist in the database |
+As a manager, I can view the transaction history of an item to know how well an item is doing, Order an item a few times and see that it shows in the transaction history | 
+As a manager or employee, I can process transactions, Added to list of transaction history, Transaction is made with an invalid gift card or gift card with insufficient funds |
+As an employee or manager, I can apply coupons to transactions, if invalid coupon is applied system must reject, Till does not display sale price of item |
+As an employee or manager, I can view transaction history to monitor daily profits, A correct transaction history is returned, Complete a transaction and see that it was added to the transaction history |
+As a manager or employee, I can view which items are currently on sale so that the price can be adjusted during checkout, Price of discounted item is the same price as one in CSV file, Coupon is applied and the transaction shows that the correct price was used, Manager or employee looks up an item that does not exist| 
+As a manager, I can add or remove employees or managers, if employee tries to add or remove employee or manager they are denied access, If manager tries to remove employee/manager that does not exist in the system they are notified, If manager adds an employee/manager and this person appears in the list of employees/managers do not add them | 
+As a manager or employee, I can see the cash balance of the till, I can complete a transaction at a till and view that the balance was updated |
+As an employee, I can login to an interface that allows me to view food/drink offerings, prices, keep track of stock and process transactions, Correct password/username login by employee(pass), Wrong password/username login attempt(fail). The employee cannot view the order histories, transaction histories, list of employees/managers, current stock list |
+As a manager, I can log into a special interface so that I can see the employee interface as well as stock, food/price offering, sales history per item, order history, transaction history and a list of employees/managers, Correct password/username login by employee(pass), Wrong password/username login attempt(fail), The employee interface can be viewed perform transactions, Can access special features (sales history, order history, transaction history and list of employees/managers) | 
 
 # Instructions
 
