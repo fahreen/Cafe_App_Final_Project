@@ -2,8 +2,7 @@
 
 
 ## Description
-The goal of this project is to develop a software that manages a cafe.  The design will take into consideration the food they offer along with its prices, inventory, order history, transactions, till cash balance and employee information.  It will aid in managing the inventory, staff and transactions. 
-
+The goal of this project is to develop a software that manages a cafe.  The design will take into consideration the food they offer along with its prices, inventory, order history, transactions, till cash balance and employee information.  It will aid in managing the inventory, staff and transactions. This was created for a final project in year 3 of University.
 
 
 ## Features
