@@ -252,7 +252,8 @@ The following is a sequence of working commands. An example use of the interface
     addNewPromo Coupon5 3.5
     removeCoupon Coupon5
     exit
-## User stories
+    <br>
+# User stories check
 
 ## 1) As a manager, I am provided with a sample CSV file that can be used to populate the inventory
 ## 2)As an administrator, I can input the product information and inventory to a CSV file so that I can setup the initial system
